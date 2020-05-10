@@ -1,0 +1,40 @@
+#header{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+}
+
+#button-container{
+    margin: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    padding: 0px 5px;
+    margin: 0px 10px;;
+}
+
+#main-wrapper{
+    height:602px;
+    width: 602px;
+    margin: 1vh auto;
+}
+
+#display-area{
+    padding: 1px;
+    display: grid;
+    grid-template-columns: repeat(25, 23.04px);
+    gap: 1px;
+    justify-items: center;
+    height: 600px;
+    width: 600px;    
+    border: 1px solid #808080;
+}
+
+.grid-item{
+    background-color: rgb(255, 255, 255);
+    height:23.04px;
+    width: 23.04px;
+    opacity: 1;
+}
